@@ -1,4 +1,6 @@
-﻿namespace FormulaCuadraticaFred
+﻿using FormulaCuadraticaFred.Views;
+
+namespace FormulaCuadraticaFred
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new FormulaCuadraticaView();
         }
     }
 }
